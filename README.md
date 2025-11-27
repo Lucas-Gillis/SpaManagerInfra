@@ -1,20 +1,28 @@
-***Infrastructure as Code para app SpaManager***
+## Infrastructure as Code para app SpaManager
 
-Consiste em configuracoes de Proxy e de Banco de Dados
+Consiste em configurações de **Proxy** e de **Banco de Dados**.
 
-***Configuracoes de Proxy***
+---
 
-Configuracao do servidor de proxy NGINX, com arquivo de configuracao, certificados p/ funcionamento correto do HTTPS e dockerfile para montagem em caso de integracao com CI/CD
+### Configurações de Proxy (NGINX)
 
-Detalhes do arquivo de configuração:
+Configuração do servidor de proxy **NGINX**, com:
 
-- Configuracoes basicas do servidor para estado production-ready
-- Configuracoes de locations -> Rotas que encaminham aos containers do aplicativo
-- Configuracoes anti DDOS e anti abuso
+- Arquivo de configuração do NGINX
+- Certificados para funcionamento correto do **HTTPS**
+- `Dockerfile` para montagem em caso de integração com **CI/CD**
 
-***Configuracoes de Banco de Dados***
+**Detalhes do arquivo de configuração**
 
-- Documentacao sobre os comandos usados para criacao do container do PostgreSQL, incluindo caminho do docker volume que garante a persistencia dos dados
-- Informacoes sobre as configuracoes adotadas dentro do PostgreSQL
-- Modelagem do banco de dado as code: Comando de criacao das tabelas
+- Configurações básicas do servidor para estado *production-ready*
+- Configurações de `location` → rotas que encaminham aos containers do aplicativo
+- Configurações anti-DDOS e anti-abuso
+
+---
+
+### Configurações de Banco de Dados (PostgreSQL)
+
+- Documentação sobre os comandos usados para criação do container do **PostgreSQL**, incluindo o caminho do `docker volume` que garante a persistência dos dados
+- Informações sobre as configurações adotadas dentro do PostgreSQL
+- Modelagem do banco de dados *as code*: comandos de criação das tabelas
 
