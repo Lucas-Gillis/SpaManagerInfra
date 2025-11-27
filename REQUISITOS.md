@@ -1,6 +1,7 @@
-Sistema LV SPA
+*Sistema LV SPA*
 
 1.      Administração
+
 - Cadastro da Logo
 - Cadastro de Dados da empresa (Nome, Licença Comercial, Endereço e Telefone)
 - Cadastro de Serviços
@@ -8,6 +9,7 @@ Sistema LV SPA
 - Criação de usuários selecionando os módulos que ele pode ver, cadastro de cliente, financeiro e etc...
 
 2.      Cadastro de Cliente
+
 - Nome
 - Sexo
 - Data de nascimento (após preencher mostra na lateral a idade puxando do campo)
@@ -22,6 +24,7 @@ Sistema LV SPA
 
  
 3.      Cadastro de Funcionário
+
 - Nome
 - Sexo
 - Serviço Realizado (se for funcionário técnico)
@@ -38,11 +41,11 @@ Sistema LV SPA
 5.      Vendas
 
 - Cadastro de Pacote exemplo cliente comprou 10 massagens e pagou adiantado o sistema coloca no saldo dele e toda vez que fizer um agendamento vai descontando do valor de venda proporcional
+- ---obs: Pacote é um pacote de servicos? Se sim, como vamos determinar o preco do pacote e como vamos negociar isso com o prestador de servico (Conversar com o Gabriel)
 - Venda Recorrente é um valor fixo mensal, independente de ser 4 ou 5 semanas o mês onde não é mais vendido por massagem e sim uma mensalidade
 
- 
-
 6.      Relatórios
+
 - Onde eu consiga selecionar uma data base de um dia até outro dia ou mês para ver qualquer dado abaixo.
 - Serviços Vendidos (pegar da área de vendas e agenda)
 - Como Conheceu
@@ -52,14 +55,9 @@ Sistema LV SPA
 
 8.      Financeiro
 
-
 - Cadastro de despesas (avulsa) ou mensal recorrente
-
 - Folha de Pagamento (cadastrar salários dos profissionais fixo) e comissão por atendimento definido em %, ex, se eu cadastrar um serviço com preço base de 400 e colocar no cadastro do profissional que ele vai receber 50% de comissão o valor da comissão é acrescido no pagamento dele.
-
 - A Folha de pagamento fecha sempre no mês fechado, exemplo soma tudo do mês de novembro fixo e comissão e gera um relatório em pdf para todos os profissionais de forma individual
-
 - Relatórios de faturamento bruto (somente receita)
-
-- Relatórios de faturamento líquido (receita descontando custos comissões e salários
+- Relatórios de faturamento líquido (receita descontando custos comissões e salários)
 
