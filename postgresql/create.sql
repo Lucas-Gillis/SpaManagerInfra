@@ -87,7 +87,6 @@ CREATE TABLE endereco (
     complemento      VARCHAR(100),
     bairro_comunidade VARCHAR(100),
     cidade_area      VARCHAR(100),
-    emirado          VARCHAR(2),
     referencia       VARCHAR(200),
     created_at       TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at       TIMESTAMPTZ NOT NULL DEFAULT NOW()
